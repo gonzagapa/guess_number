@@ -32,7 +32,7 @@ while True:
 
     #Mensaje si el usuario no adivina el numero
     if number_m != number_user: 
-        print("Ups, vuelve intentarlo para la otra")
+        print(f"Ups, El numero era {number_m} vuelve intentarlo para la otra")
 
     #Preguntamos al jugador si quiere volver a jugar el juego
     replay = input("Desea volver a jugar(s/n):")
